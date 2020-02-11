@@ -1,0 +1,1518 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node', '/usr/bin/npm', 'install' ]
+2 info using npm@1.4.21
+3 info using node@v8.11.1
+4 verbose readDependencies using package.json deps
+5 verbose install where, deps [ '/media/Data/storage/www/peer-calls',
+5 verbose install   [ 'debug',
+5 verbose install     'ejs',
+5 verbose install     'express',
+5 verbose install     'js-yaml',
+5 verbose install     'lodash',
+5 verbose install     'socket.io',
+5 verbose install     'uuid',
+5 verbose install     '@babel/core',
+5 verbose install     '@babel/polyfill',
+5 verbose install     '@babel/preset-env',
+5 verbose install     '@types/classnames',
+5 verbose install     '@types/debug',
+5 verbose install     '@types/ejs',
+5 verbose install     '@types/express',
+5 verbose install     '@types/jest',
+5 verbose install     '@types/js-yaml',
+5 verbose install     '@types/lodash',
+5 verbose install     '@types/node',
+5 verbose install     '@types/react',
+5 verbose install     '@types/react-dom',
+5 verbose install     '@types/react-redux',
+5 verbose install     '@types/react-transition-group',
+5 verbose install     '@types/redux-logger',
+5 verbose install     '@types/simple-peer',
+5 verbose install     '@types/socket.io',
+5 verbose install     '@types/socket.io-client',
+5 verbose install     '@types/supertest',
+5 verbose install     '@types/uuid',
+5 verbose install     '@typescript-eslint/eslint-plugin',
+5 verbose install     '@typescript-eslint/parser',
+5 verbose install     'acorn',
+5 verbose install     'babel-core',
+5 verbose install     'babel-minify',
+5 verbose install     'babelify',
+5 verbose install     'chastifol',
+5 verbose install     'classnames',
+5 verbose install     'core-js',
+5 verbose install     'eslint',
+5 verbose install     'eslint-plugin-import',
+5 verbose install     'eslint-plugin-react',
+5 verbose install     'jest',
+5 verbose install     'loose-envify',
+5 verbose install     'node-sass',
+5 verbose install     'nodemon',
+5 verbose install     'react',
+5 verbose install     'react-dom',
+5 verbose install     'react-redux',
+5 verbose install     'react-transition-group',
+5 verbose install     'redux',
+5 verbose install     'redux-logger',
+5 verbose install     'redux-thunk',
+5 verbose install     'rimraf',
+5 verbose install     'screenfull',
+5 verbose install     'simple-peer',
+5 verbose install     'socket.io-client',
+5 verbose install     'supertest',
+5 verbose install     'ts-jest',
+5 verbose install     'ts-node',
+5 verbose install     'tsify',
+5 verbose install     'typescript',
+5 verbose install     'watchify' ] ]
+6 info preinstall peer-calls@3.0.3
+7 warn package.json copy-descriptor@0.1.1 No README data
+8 warn package.json eslint-module-utils@2.4.1 No README data
+9 warn package.json estraverse@4.2.0 No README data
+10 warn package.json get-value@2.0.6 No README data
+11 warn package.json jest-diff@24.8.0 No description
+12 warn package.json jest-diff@24.8.0 No README data
+13 warn package.json jest-get-type@24.8.0 No README data
+14 warn package.json jest-regex-util@24.3.0 No description
+15 warn package.json jest-regex-util@24.3.0 No README data
+16 warn package.json object-copy@0.1.0 No README data
+17 warn package.json path-is-inside@1.0.2 No README data
+18 warn package.json pstree.remy@1.1.7 No repository field.
+19 warn package.json pstree.remy@1.1.7 No README data
+20 warn package.json static-extend@0.1.2 No README data
+21 warn package.json tsconfig@5.0.3 No README data
+22 warn package.json assert@1.5.0 assert is also the name of a node core module.
+23 warn package.json async-foreach@0.1.3 No license field.
+24 warn package.json babel-core@7.0.0-bridge.0 No repository field.
+25 warn package.json base64-arraybuffer@0.1.5 No license field.
+26 warn package.json better-assert@1.0.2 No license field.
+27 warn package.json buffer@5.2.1 buffer is also the name of a node core module.
+28 warn package.json callsite@1.0.0 No repository field.
+29 warn package.json callsite@1.0.0 No license field.
+30 warn package.json component-bind@1.0.0 No license field.
+31 warn package.json component-inherit@0.0.3 No license field.
+32 warn package.json console-browserify@1.1.0 No license field.
+33 warn package.json date-now@0.1.4 No license field.
+34 warn package.json deep-is@0.1.3 license should be a valid SPDX license expression
+35 warn package.json esutils@2.0.2 No license field.
+36 warn package.json events@2.1.0 events is also the name of a node core module.
+37 warn package.json exit@0.1.2 No license field.
+38 warn package.json has-binary2@1.0.3 No repository field.
+39 warn package.json indexof@0.0.1 No repository field.
+40 warn package.json indexof@0.0.1 No license field.
+41 warn package.json json-schema@0.2.3 No license field.
+42 warn package.json jsonify@0.0.0 license should be a valid SPDX license expression
+43 warn package.json object-component@0.0.3 No repository field.
+44 warn package.json object-component@0.0.3 No license field.
+45 warn package.json optimist@0.6.1 license should be a valid SPDX license expression
+46 warn package.json prelude-ls@1.1.2 No license field.
+47 warn package.json process@0.11.10 process is also the name of a node core module.
+48 warn package.json punycode@2.1.1 punycode is also the name of a node core module.
+49 warn package.json querystring@0.2.0 querystring is also the name of a node core module.
+50 warn package.json querystring@0.2.0 No license field.
+51 warn package.json querystring-es3@0.2.1 No license field.
+52 warn package.json string_decoder@1.1.1 string_decoder is also the name of a node core module.
+53 warn package.json timers-browserify@1.4.2 No license field.
+54 warn package.json to-array@0.1.4 No license field.
+55 warn package.json url@0.11.0 url is also the name of a node core module.
+56 warn package.json util@0.10.4 util is also the name of a node core module.
+57 warn package.json xmlhttprequest-ssl@1.5.5 No license field.
+58 verbose readDependencies using package.json deps
+59 verbose already installed skipping uuid@^3.3.3 /media/Data/storage/www/peer-calls
+60 verbose cache add [ '@babel/core@^7.7.2', null ]
+61 verbose cache add name=undefined spec="@babel/core@^7.7.2" args=["@babel/core@^7.7.2",null]
+62 verbose parsed url Url {
+62 verbose parsed url   protocol: null,
+62 verbose parsed url   slashes: null,
+62 verbose parsed url   auth: null,
+62 verbose parsed url   host: null,
+62 verbose parsed url   port: null,
+62 verbose parsed url   hostname: null,
+62 verbose parsed url   hash: null,
+62 verbose parsed url   search: null,
+62 verbose parsed url   query: null,
+62 verbose parsed url   pathname: '@babel/core@%5E7.7.2',
+62 verbose parsed url   path: '@babel/core@%5E7.7.2',
+62 verbose parsed url   href: '@babel/core@%5E7.7.2' }
+63 verbose cache add [ '@babel/polyfill@^7.7.0', null ]
+64 verbose cache add name=undefined spec="@babel/polyfill@^7.7.0" args=["@babel/polyfill@^7.7.0",null]
+65 verbose parsed url Url {
+65 verbose parsed url   protocol: null,
+65 verbose parsed url   slashes: null,
+65 verbose parsed url   auth: null,
+65 verbose parsed url   host: null,
+65 verbose parsed url   port: null,
+65 verbose parsed url   hostname: null,
+65 verbose parsed url   hash: null,
+65 verbose parsed url   search: null,
+65 verbose parsed url   query: null,
+65 verbose parsed url   pathname: '@babel/polyfill@%5E7.7.0',
+65 verbose parsed url   path: '@babel/polyfill@%5E7.7.0',
+65 verbose parsed url   href: '@babel/polyfill@%5E7.7.0' }
+66 verbose cache add [ '@babel/preset-env@^7.7.1', null ]
+67 verbose cache add name=undefined spec="@babel/preset-env@^7.7.1" args=["@babel/preset-env@^7.7.1",null]
+68 verbose parsed url Url {
+68 verbose parsed url   protocol: null,
+68 verbose parsed url   slashes: null,
+68 verbose parsed url   auth: null,
+68 verbose parsed url   host: null,
+68 verbose parsed url   port: null,
+68 verbose parsed url   hostname: null,
+68 verbose parsed url   hash: null,
+68 verbose parsed url   search: null,
+68 verbose parsed url   query: null,
+68 verbose parsed url   pathname: '@babel/preset-env@%5E7.7.1',
+68 verbose parsed url   path: '@babel/preset-env@%5E7.7.1',
+68 verbose parsed url   href: '@babel/preset-env@%5E7.7.1' }
+69 verbose cache add [ '@types/classnames@^2.2.9', null ]
+70 verbose cache add name=undefined spec="@types/classnames@^2.2.9" args=["@types/classnames@^2.2.9",null]
+71 verbose parsed url Url {
+71 verbose parsed url   protocol: null,
+71 verbose parsed url   slashes: null,
+71 verbose parsed url   auth: null,
+71 verbose parsed url   host: null,
+71 verbose parsed url   port: null,
+71 verbose parsed url   hostname: null,
+71 verbose parsed url   hash: null,
+71 verbose parsed url   search: null,
+71 verbose parsed url   query: null,
+71 verbose parsed url   pathname: '@types/classnames@%5E2.2.9',
+71 verbose parsed url   path: '@types/classnames@%5E2.2.9',
+71 verbose parsed url   href: '@types/classnames@%5E2.2.9' }
+72 verbose cache add [ '@types/debug@^4.1.5', null ]
+73 verbose cache add name=undefined spec="@types/debug@^4.1.5" args=["@types/debug@^4.1.5",null]
+74 verbose parsed url Url {
+74 verbose parsed url   protocol: null,
+74 verbose parsed url   slashes: null,
+74 verbose parsed url   auth: null,
+74 verbose parsed url   host: null,
+74 verbose parsed url   port: null,
+74 verbose parsed url   hostname: null,
+74 verbose parsed url   hash: null,
+74 verbose parsed url   search: null,
+74 verbose parsed url   query: null,
+74 verbose parsed url   pathname: '@types/debug@%5E4.1.5',
+74 verbose parsed url   path: '@types/debug@%5E4.1.5',
+74 verbose parsed url   href: '@types/debug@%5E4.1.5' }
+75 verbose cache add [ '@types/ejs@^2.6.3', null ]
+76 verbose cache add name=undefined spec="@types/ejs@^2.6.3" args=["@types/ejs@^2.6.3",null]
+77 verbose parsed url Url {
+77 verbose parsed url   protocol: null,
+77 verbose parsed url   slashes: null,
+77 verbose parsed url   auth: null,
+77 verbose parsed url   host: null,
+77 verbose parsed url   port: null,
+77 verbose parsed url   hostname: null,
+77 verbose parsed url   hash: null,
+77 verbose parsed url   search: null,
+77 verbose parsed url   query: null,
+77 verbose parsed url   pathname: '@types/ejs@%5E2.6.3',
+77 verbose parsed url   path: '@types/ejs@%5E2.6.3',
+77 verbose parsed url   href: '@types/ejs@%5E2.6.3' }
+78 verbose cache add [ '@types/express@^4.17.2', null ]
+79 verbose cache add name=undefined spec="@types/express@^4.17.2" args=["@types/express@^4.17.2",null]
+80 verbose parsed url Url {
+80 verbose parsed url   protocol: null,
+80 verbose parsed url   slashes: null,
+80 verbose parsed url   auth: null,
+80 verbose parsed url   host: null,
+80 verbose parsed url   port: null,
+80 verbose parsed url   hostname: null,
+80 verbose parsed url   hash: null,
+80 verbose parsed url   search: null,
+80 verbose parsed url   query: null,
+80 verbose parsed url   pathname: '@types/express@%5E4.17.2',
+80 verbose parsed url   path: '@types/express@%5E4.17.2',
+80 verbose parsed url   href: '@types/express@%5E4.17.2' }
+81 verbose cache add [ '@types/jest@^24.0.23', null ]
+82 verbose cache add name=undefined spec="@types/jest@^24.0.23" args=["@types/jest@^24.0.23",null]
+83 verbose parsed url Url {
+83 verbose parsed url   protocol: null,
+83 verbose parsed url   slashes: null,
+83 verbose parsed url   auth: null,
+83 verbose parsed url   host: null,
+83 verbose parsed url   port: null,
+83 verbose parsed url   hostname: null,
+83 verbose parsed url   hash: null,
+83 verbose parsed url   search: null,
+83 verbose parsed url   query: null,
+83 verbose parsed url   pathname: '@types/jest@%5E24.0.23',
+83 verbose parsed url   path: '@types/jest@%5E24.0.23',
+83 verbose parsed url   href: '@types/jest@%5E24.0.23' }
+84 verbose cache add [ '@types/js-yaml@^3.12.1', null ]
+85 verbose cache add name=undefined spec="@types/js-yaml@^3.12.1" args=["@types/js-yaml@^3.12.1",null]
+86 verbose parsed url Url {
+86 verbose parsed url   protocol: null,
+86 verbose parsed url   slashes: null,
+86 verbose parsed url   auth: null,
+86 verbose parsed url   host: null,
+86 verbose parsed url   port: null,
+86 verbose parsed url   hostname: null,
+86 verbose parsed url   hash: null,
+86 verbose parsed url   search: null,
+86 verbose parsed url   query: null,
+86 verbose parsed url   pathname: '@types/js-yaml@%5E3.12.1',
+86 verbose parsed url   path: '@types/js-yaml@%5E3.12.1',
+86 verbose parsed url   href: '@types/js-yaml@%5E3.12.1' }
+87 verbose cache add [ '@types/lodash@^4.14.148', null ]
+88 verbose cache add name=undefined spec="@types/lodash@^4.14.148" args=["@types/lodash@^4.14.148",null]
+89 verbose parsed url Url {
+89 verbose parsed url   protocol: null,
+89 verbose parsed url   slashes: null,
+89 verbose parsed url   auth: null,
+89 verbose parsed url   host: null,
+89 verbose parsed url   port: null,
+89 verbose parsed url   hostname: null,
+89 verbose parsed url   hash: null,
+89 verbose parsed url   search: null,
+89 verbose parsed url   query: null,
+89 verbose parsed url   pathname: '@types/lodash@%5E4.14.148',
+89 verbose parsed url   path: '@types/lodash@%5E4.14.148',
+89 verbose parsed url   href: '@types/lodash@%5E4.14.148' }
+90 verbose cache add [ '@types/node@^12.12.8', null ]
+91 verbose cache add name=undefined spec="@types/node@^12.12.8" args=["@types/node@^12.12.8",null]
+92 verbose parsed url Url {
+92 verbose parsed url   protocol: null,
+92 verbose parsed url   slashes: null,
+92 verbose parsed url   auth: null,
+92 verbose parsed url   host: null,
+92 verbose parsed url   port: null,
+92 verbose parsed url   hostname: null,
+92 verbose parsed url   hash: null,
+92 verbose parsed url   search: null,
+92 verbose parsed url   query: null,
+92 verbose parsed url   pathname: '@types/node@%5E12.12.8',
+92 verbose parsed url   path: '@types/node@%5E12.12.8',
+92 verbose parsed url   href: '@types/node@%5E12.12.8' }
+93 verbose cache add [ '@types/react@^16.9.11', null ]
+94 verbose cache add name=undefined spec="@types/react@^16.9.11" args=["@types/react@^16.9.11",null]
+95 verbose parsed url Url {
+95 verbose parsed url   protocol: null,
+95 verbose parsed url   slashes: null,
+95 verbose parsed url   auth: null,
+95 verbose parsed url   host: null,
+95 verbose parsed url   port: null,
+95 verbose parsed url   hostname: null,
+95 verbose parsed url   hash: null,
+95 verbose parsed url   search: null,
+95 verbose parsed url   query: null,
+95 verbose parsed url   pathname: '@types/react@%5E16.9.11',
+95 verbose parsed url   path: '@types/react@%5E16.9.11',
+95 verbose parsed url   href: '@types/react@%5E16.9.11' }
+96 verbose cache add [ '@types/react-dom@^16.9.4', null ]
+97 verbose cache add name=undefined spec="@types/react-dom@^16.9.4" args=["@types/react-dom@^16.9.4",null]
+98 verbose parsed url Url {
+98 verbose parsed url   protocol: null,
+98 verbose parsed url   slashes: null,
+98 verbose parsed url   auth: null,
+98 verbose parsed url   host: null,
+98 verbose parsed url   port: null,
+98 verbose parsed url   hostname: null,
+98 verbose parsed url   hash: null,
+98 verbose parsed url   search: null,
+98 verbose parsed url   query: null,
+98 verbose parsed url   pathname: '@types/react-dom@%5E16.9.4',
+98 verbose parsed url   path: '@types/react-dom@%5E16.9.4',
+98 verbose parsed url   href: '@types/react-dom@%5E16.9.4' }
+99 verbose cache add [ '@types/react-redux@^7.1.5', null ]
+100 verbose cache add name=undefined spec="@types/react-redux@^7.1.5" args=["@types/react-redux@^7.1.5",null]
+101 verbose parsed url Url {
+101 verbose parsed url   protocol: null,
+101 verbose parsed url   slashes: null,
+101 verbose parsed url   auth: null,
+101 verbose parsed url   host: null,
+101 verbose parsed url   port: null,
+101 verbose parsed url   hostname: null,
+101 verbose parsed url   hash: null,
+101 verbose parsed url   search: null,
+101 verbose parsed url   query: null,
+101 verbose parsed url   pathname: '@types/react-redux@%5E7.1.5',
+101 verbose parsed url   path: '@types/react-redux@%5E7.1.5',
+101 verbose parsed url   href: '@types/react-redux@%5E7.1.5' }
+102 verbose cache add [ '@types/react-transition-group@^4.2.3', null ]
+103 verbose cache add name=undefined spec="@types/react-transition-group@^4.2.3" args=["@types/react-transition-group@^4.2.3",null]
+104 verbose parsed url Url {
+104 verbose parsed url   protocol: null,
+104 verbose parsed url   slashes: null,
+104 verbose parsed url   auth: null,
+104 verbose parsed url   host: null,
+104 verbose parsed url   port: null,
+104 verbose parsed url   hostname: null,
+104 verbose parsed url   hash: null,
+104 verbose parsed url   search: null,
+104 verbose parsed url   query: null,
+104 verbose parsed url   pathname: '@types/react-transition-group@%5E4.2.3',
+104 verbose parsed url   path: '@types/react-transition-group@%5E4.2.3',
+104 verbose parsed url   href: '@types/react-transition-group@%5E4.2.3' }
+105 verbose cache add name="" spec="babel/core@^7.7.2" args=["","babel/core@^7.7.2"]
+106 verbose parsed url Url {
+106 verbose parsed url   protocol: null,
+106 verbose parsed url   slashes: null,
+106 verbose parsed url   auth: null,
+106 verbose parsed url   host: null,
+106 verbose parsed url   port: null,
+106 verbose parsed url   hostname: null,
+106 verbose parsed url   hash: null,
+106 verbose parsed url   search: null,
+106 verbose parsed url   query: null,
+106 verbose parsed url   pathname: 'babel/core@%5E7.7.2',
+106 verbose parsed url   path: 'babel/core@%5E7.7.2',
+106 verbose parsed url   href: 'babel/core@%5E7.7.2' }
+107 verbose cache add name="" spec="babel/polyfill@^7.7.0" args=["","babel/polyfill@^7.7.0"]
+108 verbose parsed url Url {
+108 verbose parsed url   protocol: null,
+108 verbose parsed url   slashes: null,
+108 verbose parsed url   auth: null,
+108 verbose parsed url   host: null,
+108 verbose parsed url   port: null,
+108 verbose parsed url   hostname: null,
+108 verbose parsed url   hash: null,
+108 verbose parsed url   search: null,
+108 verbose parsed url   query: null,
+108 verbose parsed url   pathname: 'babel/polyfill@%5E7.7.0',
+108 verbose parsed url   path: 'babel/polyfill@%5E7.7.0',
+108 verbose parsed url   href: 'babel/polyfill@%5E7.7.0' }
+109 verbose cache add name="" spec="babel/preset-env@^7.7.1" args=["","babel/preset-env@^7.7.1"]
+110 verbose parsed url Url {
+110 verbose parsed url   protocol: null,
+110 verbose parsed url   slashes: null,
+110 verbose parsed url   auth: null,
+110 verbose parsed url   host: null,
+110 verbose parsed url   port: null,
+110 verbose parsed url   hostname: null,
+110 verbose parsed url   hash: null,
+110 verbose parsed url   search: null,
+110 verbose parsed url   query: null,
+110 verbose parsed url   pathname: 'babel/preset-env@%5E7.7.1',
+110 verbose parsed url   path: 'babel/preset-env@%5E7.7.1',
+110 verbose parsed url   href: 'babel/preset-env@%5E7.7.1' }
+111 verbose cache add name="" spec="types/classnames@^2.2.9" args=["","types/classnames@^2.2.9"]
+112 verbose parsed url Url {
+112 verbose parsed url   protocol: null,
+112 verbose parsed url   slashes: null,
+112 verbose parsed url   auth: null,
+112 verbose parsed url   host: null,
+112 verbose parsed url   port: null,
+112 verbose parsed url   hostname: null,
+112 verbose parsed url   hash: null,
+112 verbose parsed url   search: null,
+112 verbose parsed url   query: null,
+112 verbose parsed url   pathname: 'types/classnames@%5E2.2.9',
+112 verbose parsed url   path: 'types/classnames@%5E2.2.9',
+112 verbose parsed url   href: 'types/classnames@%5E2.2.9' }
+113 verbose cache add name="" spec="types/debug@^4.1.5" args=["","types/debug@^4.1.5"]
+114 verbose parsed url Url {
+114 verbose parsed url   protocol: null,
+114 verbose parsed url   slashes: null,
+114 verbose parsed url   auth: null,
+114 verbose parsed url   host: null,
+114 verbose parsed url   port: null,
+114 verbose parsed url   hostname: null,
+114 verbose parsed url   hash: null,
+114 verbose parsed url   search: null,
+114 verbose parsed url   query: null,
+114 verbose parsed url   pathname: 'types/debug@%5E4.1.5',
+114 verbose parsed url   path: 'types/debug@%5E4.1.5',
+114 verbose parsed url   href: 'types/debug@%5E4.1.5' }
+115 verbose cache add name="" spec="types/ejs@^2.6.3" args=["","types/ejs@^2.6.3"]
+116 verbose parsed url Url {
+116 verbose parsed url   protocol: null,
+116 verbose parsed url   slashes: null,
+116 verbose parsed url   auth: null,
+116 verbose parsed url   host: null,
+116 verbose parsed url   port: null,
+116 verbose parsed url   hostname: null,
+116 verbose parsed url   hash: null,
+116 verbose parsed url   search: null,
+116 verbose parsed url   query: null,
+116 verbose parsed url   pathname: 'types/ejs@%5E2.6.3',
+116 verbose parsed url   path: 'types/ejs@%5E2.6.3',
+116 verbose parsed url   href: 'types/ejs@%5E2.6.3' }
+117 verbose cache add name="" spec="types/express@^4.17.2" args=["","types/express@^4.17.2"]
+118 verbose parsed url Url {
+118 verbose parsed url   protocol: null,
+118 verbose parsed url   slashes: null,
+118 verbose parsed url   auth: null,
+118 verbose parsed url   host: null,
+118 verbose parsed url   port: null,
+118 verbose parsed url   hostname: null,
+118 verbose parsed url   hash: null,
+118 verbose parsed url   search: null,
+118 verbose parsed url   query: null,
+118 verbose parsed url   pathname: 'types/express@%5E4.17.2',
+118 verbose parsed url   path: 'types/express@%5E4.17.2',
+118 verbose parsed url   href: 'types/express@%5E4.17.2' }
+119 verbose cache add name="" spec="types/jest@^24.0.23" args=["","types/jest@^24.0.23"]
+120 verbose parsed url Url {
+120 verbose parsed url   protocol: null,
+120 verbose parsed url   slashes: null,
+120 verbose parsed url   auth: null,
+120 verbose parsed url   host: null,
+120 verbose parsed url   port: null,
+120 verbose parsed url   hostname: null,
+120 verbose parsed url   hash: null,
+120 verbose parsed url   search: null,
+120 verbose parsed url   query: null,
+120 verbose parsed url   pathname: 'types/jest@%5E24.0.23',
+120 verbose parsed url   path: 'types/jest@%5E24.0.23',
+120 verbose parsed url   href: 'types/jest@%5E24.0.23' }
+121 verbose cache add name="" spec="types/js-yaml@^3.12.1" args=["","types/js-yaml@^3.12.1"]
+122 verbose parsed url Url {
+122 verbose parsed url   protocol: null,
+122 verbose parsed url   slashes: null,
+122 verbose parsed url   auth: null,
+122 verbose parsed url   host: null,
+122 verbose parsed url   port: null,
+122 verbose parsed url   hostname: null,
+122 verbose parsed url   hash: null,
+122 verbose parsed url   search: null,
+122 verbose parsed url   query: null,
+122 verbose parsed url   pathname: 'types/js-yaml@%5E3.12.1',
+122 verbose parsed url   path: 'types/js-yaml@%5E3.12.1',
+122 verbose parsed url   href: 'types/js-yaml@%5E3.12.1' }
+123 verbose cache add name="" spec="types/lodash@^4.14.148" args=["","types/lodash@^4.14.148"]
+124 verbose parsed url Url {
+124 verbose parsed url   protocol: null,
+124 verbose parsed url   slashes: null,
+124 verbose parsed url   auth: null,
+124 verbose parsed url   host: null,
+124 verbose parsed url   port: null,
+124 verbose parsed url   hostname: null,
+124 verbose parsed url   hash: null,
+124 verbose parsed url   search: null,
+124 verbose parsed url   query: null,
+124 verbose parsed url   pathname: 'types/lodash@%5E4.14.148',
+124 verbose parsed url   path: 'types/lodash@%5E4.14.148',
+124 verbose parsed url   href: 'types/lodash@%5E4.14.148' }
+125 verbose cache add name="" spec="types/node@^12.12.8" args=["","types/node@^12.12.8"]
+126 verbose parsed url Url {
+126 verbose parsed url   protocol: null,
+126 verbose parsed url   slashes: null,
+126 verbose parsed url   auth: null,
+126 verbose parsed url   host: null,
+126 verbose parsed url   port: null,
+126 verbose parsed url   hostname: null,
+126 verbose parsed url   hash: null,
+126 verbose parsed url   search: null,
+126 verbose parsed url   query: null,
+126 verbose parsed url   pathname: 'types/node@%5E12.12.8',
+126 verbose parsed url   path: 'types/node@%5E12.12.8',
+126 verbose parsed url   href: 'types/node@%5E12.12.8' }
+127 verbose cache add name="" spec="types/react@^16.9.11" args=["","types/react@^16.9.11"]
+128 verbose parsed url Url {
+128 verbose parsed url   protocol: null,
+128 verbose parsed url   slashes: null,
+128 verbose parsed url   auth: null,
+128 verbose parsed url   host: null,
+128 verbose parsed url   port: null,
+128 verbose parsed url   hostname: null,
+128 verbose parsed url   hash: null,
+128 verbose parsed url   search: null,
+128 verbose parsed url   query: null,
+128 verbose parsed url   pathname: 'types/react@%5E16.9.11',
+128 verbose parsed url   path: 'types/react@%5E16.9.11',
+128 verbose parsed url   href: 'types/react@%5E16.9.11' }
+129 verbose cache add name="" spec="types/react-dom@^16.9.4" args=["","types/react-dom@^16.9.4"]
+130 verbose parsed url Url {
+130 verbose parsed url   protocol: null,
+130 verbose parsed url   slashes: null,
+130 verbose parsed url   auth: null,
+130 verbose parsed url   host: null,
+130 verbose parsed url   port: null,
+130 verbose parsed url   hostname: null,
+130 verbose parsed url   hash: null,
+130 verbose parsed url   search: null,
+130 verbose parsed url   query: null,
+130 verbose parsed url   pathname: 'types/react-dom@%5E16.9.4',
+130 verbose parsed url   path: 'types/react-dom@%5E16.9.4',
+130 verbose parsed url   href: 'types/react-dom@%5E16.9.4' }
+131 verbose cache add name="" spec="types/react-redux@^7.1.5" args=["","types/react-redux@^7.1.5"]
+132 verbose parsed url Url {
+132 verbose parsed url   protocol: null,
+132 verbose parsed url   slashes: null,
+132 verbose parsed url   auth: null,
+132 verbose parsed url   host: null,
+132 verbose parsed url   port: null,
+132 verbose parsed url   hostname: null,
+132 verbose parsed url   hash: null,
+132 verbose parsed url   search: null,
+132 verbose parsed url   query: null,
+132 verbose parsed url   pathname: 'types/react-redux@%5E7.1.5',
+132 verbose parsed url   path: 'types/react-redux@%5E7.1.5',
+132 verbose parsed url   href: 'types/react-redux@%5E7.1.5' }
+133 verbose cache add name="" spec="types/react-transition-group@^4.2.3" args=["","types/react-transition-group@^4.2.3"]
+134 verbose parsed url Url {
+134 verbose parsed url   protocol: null,
+134 verbose parsed url   slashes: null,
+134 verbose parsed url   auth: null,
+134 verbose parsed url   host: null,
+134 verbose parsed url   port: null,
+134 verbose parsed url   hostname: null,
+134 verbose parsed url   hash: null,
+134 verbose parsed url   search: null,
+134 verbose parsed url   query: null,
+134 verbose parsed url   pathname: 'types/react-transition-group@%5E4.2.3',
+134 verbose parsed url   path: 'types/react-transition-group@%5E4.2.3',
+134 verbose parsed url   href: 'types/react-transition-group@%5E4.2.3' }
+135 verbose cache add [ '@types/redux-logger@^3.0.7', null ]
+136 verbose cache add name=undefined spec="@types/redux-logger@^3.0.7" args=["@types/redux-logger@^3.0.7",null]
+137 verbose parsed url Url {
+137 verbose parsed url   protocol: null,
+137 verbose parsed url   slashes: null,
+137 verbose parsed url   auth: null,
+137 verbose parsed url   host: null,
+137 verbose parsed url   port: null,
+137 verbose parsed url   hostname: null,
+137 verbose parsed url   hash: null,
+137 verbose parsed url   search: null,
+137 verbose parsed url   query: null,
+137 verbose parsed url   pathname: '@types/redux-logger@%5E3.0.7',
+137 verbose parsed url   path: '@types/redux-logger@%5E3.0.7',
+137 verbose parsed url   href: '@types/redux-logger@%5E3.0.7' }
+138 verbose cache add [ '@types/simple-peer@^9.6.0', null ]
+139 verbose cache add name=undefined spec="@types/simple-peer@^9.6.0" args=["@types/simple-peer@^9.6.0",null]
+140 verbose parsed url Url {
+140 verbose parsed url   protocol: null,
+140 verbose parsed url   slashes: null,
+140 verbose parsed url   auth: null,
+140 verbose parsed url   host: null,
+140 verbose parsed url   port: null,
+140 verbose parsed url   hostname: null,
+140 verbose parsed url   hash: null,
+140 verbose parsed url   search: null,
+140 verbose parsed url   query: null,
+140 verbose parsed url   pathname: '@types/simple-peer@%5E9.6.0',
+140 verbose parsed url   path: '@types/simple-peer@%5E9.6.0',
+140 verbose parsed url   href: '@types/simple-peer@%5E9.6.0' }
+141 verbose cache add [ '@types/socket.io@^2.1.4', null ]
+142 verbose cache add name=undefined spec="@types/socket.io@^2.1.4" args=["@types/socket.io@^2.1.4",null]
+143 verbose parsed url Url {
+143 verbose parsed url   protocol: null,
+143 verbose parsed url   slashes: null,
+143 verbose parsed url   auth: null,
+143 verbose parsed url   host: null,
+143 verbose parsed url   port: null,
+143 verbose parsed url   hostname: null,
+143 verbose parsed url   hash: null,
+143 verbose parsed url   search: null,
+143 verbose parsed url   query: null,
+143 verbose parsed url   pathname: '@types/socket.io@%5E2.1.4',
+143 verbose parsed url   path: '@types/socket.io@%5E2.1.4',
+143 verbose parsed url   href: '@types/socket.io@%5E2.1.4' }
+144 verbose cache add [ '@types/socket.io-client@^1.4.32', null ]
+145 verbose cache add name=undefined spec="@types/socket.io-client@^1.4.32" args=["@types/socket.io-client@^1.4.32",null]
+146 verbose parsed url Url {
+146 verbose parsed url   protocol: null,
+146 verbose parsed url   slashes: null,
+146 verbose parsed url   auth: null,
+146 verbose parsed url   host: null,
+146 verbose parsed url   port: null,
+146 verbose parsed url   hostname: null,
+146 verbose parsed url   hash: null,
+146 verbose parsed url   search: null,
+146 verbose parsed url   query: null,
+146 verbose parsed url   pathname: '@types/socket.io-client@%5E1.4.32',
+146 verbose parsed url   path: '@types/socket.io-client@%5E1.4.32',
+146 verbose parsed url   href: '@types/socket.io-client@%5E1.4.32' }
+147 verbose cache add [ '@types/supertest@^2.0.8', null ]
+148 verbose cache add name=undefined spec="@types/supertest@^2.0.8" args=["@types/supertest@^2.0.8",null]
+149 verbose parsed url Url {
+149 verbose parsed url   protocol: null,
+149 verbose parsed url   slashes: null,
+149 verbose parsed url   auth: null,
+149 verbose parsed url   host: null,
+149 verbose parsed url   port: null,
+149 verbose parsed url   hostname: null,
+149 verbose parsed url   hash: null,
+149 verbose parsed url   search: null,
+149 verbose parsed url   query: null,
+149 verbose parsed url   pathname: '@types/supertest@%5E2.0.8',
+149 verbose parsed url   path: '@types/supertest@%5E2.0.8',
+149 verbose parsed url   href: '@types/supertest@%5E2.0.8' }
+150 verbose cache add [ '@types/uuid@^3.4.6', null ]
+151 verbose cache add name=undefined spec="@types/uuid@^3.4.6" args=["@types/uuid@^3.4.6",null]
+152 verbose parsed url Url {
+152 verbose parsed url   protocol: null,
+152 verbose parsed url   slashes: null,
+152 verbose parsed url   auth: null,
+152 verbose parsed url   host: null,
+152 verbose parsed url   port: null,
+152 verbose parsed url   hostname: null,
+152 verbose parsed url   hash: null,
+152 verbose parsed url   search: null,
+152 verbose parsed url   query: null,
+152 verbose parsed url   pathname: '@types/uuid@%5E3.4.6',
+152 verbose parsed url   path: '@types/uuid@%5E3.4.6',
+152 verbose parsed url   href: '@types/uuid@%5E3.4.6' }
+153 verbose cache add [ '@typescript-eslint/eslint-plugin@^2.7.0', null ]
+154 verbose cache add name=undefined spec="@typescript-eslint/eslint-plugin@^2.7.0" args=["@typescript-eslint/eslint-plugin@^2.7.0",null]
+155 verbose parsed url Url {
+155 verbose parsed url   protocol: null,
+155 verbose parsed url   slashes: null,
+155 verbose parsed url   auth: null,
+155 verbose parsed url   host: null,
+155 verbose parsed url   port: null,
+155 verbose parsed url   hostname: null,
+155 verbose parsed url   hash: null,
+155 verbose parsed url   search: null,
+155 verbose parsed url   query: null,
+155 verbose parsed url   pathname: '@typescript-eslint/eslint-plugin@%5E2.7.0',
+155 verbose parsed url   path: '@typescript-eslint/eslint-plugin@%5E2.7.0',
+155 verbose parsed url   href: '@typescript-eslint/eslint-plugin@%5E2.7.0' }
+156 verbose cache add [ '@typescript-eslint/parser@^2.7.0', null ]
+157 verbose cache add name=undefined spec="@typescript-eslint/parser@^2.7.0" args=["@typescript-eslint/parser@^2.7.0",null]
+158 verbose parsed url Url {
+158 verbose parsed url   protocol: null,
+158 verbose parsed url   slashes: null,
+158 verbose parsed url   auth: null,
+158 verbose parsed url   host: null,
+158 verbose parsed url   port: null,
+158 verbose parsed url   hostname: null,
+158 verbose parsed url   hash: null,
+158 verbose parsed url   search: null,
+158 verbose parsed url   query: null,
+158 verbose parsed url   pathname: '@typescript-eslint/parser@%5E2.7.0',
+158 verbose parsed url   path: '@typescript-eslint/parser@%5E2.7.0',
+158 verbose parsed url   href: '@typescript-eslint/parser@%5E2.7.0' }
+159 verbose already installed skipping acorn@^7.1.0 /media/Data/storage/www/peer-calls
+160 verbose already installed skipping babel-core@^7.0.0-bridge.0 /media/Data/storage/www/peer-calls
+161 verbose already installed skipping babel-minify@^0.5.1 /media/Data/storage/www/peer-calls
+162 verbose already installed skipping babelify@^10.0.0 /media/Data/storage/www/peer-calls
+163 verbose already installed skipping chastifol@^4.1.0 /media/Data/storage/www/peer-calls
+164 verbose cache add name="babel/core" spec="^7.7.2" args=["babel/core","^7.7.2"]
+165 verbose parsed url Url {
+165 verbose parsed url   protocol: null,
+165 verbose parsed url   slashes: null,
+165 verbose parsed url   auth: null,
+165 verbose parsed url   host: null,
+165 verbose parsed url   port: null,
+165 verbose parsed url   hostname: null,
+165 verbose parsed url   hash: null,
+165 verbose parsed url   search: null,
+165 verbose parsed url   query: null,
+165 verbose parsed url   pathname: '%5E7.7.2',
+165 verbose parsed url   path: '%5E7.7.2',
+165 verbose parsed url   href: '%5E7.7.2' }
+166 verbose addNamed [ 'babel/core', '^7.7.2' ]
+167 verbose addNamed [ null, '>=7.7.2 <8.0.0' ]
+168 verbose cache add name="babel/polyfill" spec="^7.7.0" args=["babel/polyfill","^7.7.0"]
+169 verbose parsed url Url {
+169 verbose parsed url   protocol: null,
+169 verbose parsed url   slashes: null,
+169 verbose parsed url   auth: null,
+169 verbose parsed url   host: null,
+169 verbose parsed url   port: null,
+169 verbose parsed url   hostname: null,
+169 verbose parsed url   hash: null,
+169 verbose parsed url   search: null,
+169 verbose parsed url   query: null,
+169 verbose parsed url   pathname: '%5E7.7.0',
+169 verbose parsed url   path: '%5E7.7.0',
+169 verbose parsed url   href: '%5E7.7.0' }
+170 verbose addNamed [ 'babel/polyfill', '^7.7.0' ]
+171 verbose addNamed [ null, '>=7.7.0 <8.0.0' ]
+172 verbose cache add name="babel/preset-env" spec="^7.7.1" args=["babel/preset-env","^7.7.1"]
+173 verbose parsed url Url {
+173 verbose parsed url   protocol: null,
+173 verbose parsed url   slashes: null,
+173 verbose parsed url   auth: null,
+173 verbose parsed url   host: null,
+173 verbose parsed url   port: null,
+173 verbose parsed url   hostname: null,
+173 verbose parsed url   hash: null,
+173 verbose parsed url   search: null,
+173 verbose parsed url   query: null,
+173 verbose parsed url   pathname: '%5E7.7.1',
+173 verbose parsed url   path: '%5E7.7.1',
+173 verbose parsed url   href: '%5E7.7.1' }
+174 verbose addNamed [ 'babel/preset-env', '^7.7.1' ]
+175 verbose addNamed [ null, '>=7.7.1 <8.0.0' ]
+176 verbose cache add name="types/classnames" spec="^2.2.9" args=["types/classnames","^2.2.9"]
+177 verbose parsed url Url {
+177 verbose parsed url   protocol: null,
+177 verbose parsed url   slashes: null,
+177 verbose parsed url   auth: null,
+177 verbose parsed url   host: null,
+177 verbose parsed url   port: null,
+177 verbose parsed url   hostname: null,
+177 verbose parsed url   hash: null,
+177 verbose parsed url   search: null,
+177 verbose parsed url   query: null,
+177 verbose parsed url   pathname: '%5E2.2.9',
+177 verbose parsed url   path: '%5E2.2.9',
+177 verbose parsed url   href: '%5E2.2.9' }
+178 verbose addNamed [ 'types/classnames', '^2.2.9' ]
+179 verbose addNamed [ null, '>=2.2.9 <3.0.0' ]
+180 verbose cache add name="types/debug" spec="^4.1.5" args=["types/debug","^4.1.5"]
+181 verbose parsed url Url {
+181 verbose parsed url   protocol: null,
+181 verbose parsed url   slashes: null,
+181 verbose parsed url   auth: null,
+181 verbose parsed url   host: null,
+181 verbose parsed url   port: null,
+181 verbose parsed url   hostname: null,
+181 verbose parsed url   hash: null,
+181 verbose parsed url   search: null,
+181 verbose parsed url   query: null,
+181 verbose parsed url   pathname: '%5E4.1.5',
+181 verbose parsed url   path: '%5E4.1.5',
+181 verbose parsed url   href: '%5E4.1.5' }
+182 verbose addNamed [ 'types/debug', '^4.1.5' ]
+183 verbose addNamed [ null, '>=4.1.5 <5.0.0' ]
+184 verbose cache add name="types/ejs" spec="^2.6.3" args=["types/ejs","^2.6.3"]
+185 verbose parsed url Url {
+185 verbose parsed url   protocol: null,
+185 verbose parsed url   slashes: null,
+185 verbose parsed url   auth: null,
+185 verbose parsed url   host: null,
+185 verbose parsed url   port: null,
+185 verbose parsed url   hostname: null,
+185 verbose parsed url   hash: null,
+185 verbose parsed url   search: null,
+185 verbose parsed url   query: null,
+185 verbose parsed url   pathname: '%5E2.6.3',
+185 verbose parsed url   path: '%5E2.6.3',
+185 verbose parsed url   href: '%5E2.6.3' }
+186 verbose addNamed [ 'types/ejs', '^2.6.3' ]
+187 verbose addNamed [ null, '>=2.6.3 <3.0.0' ]
+188 verbose cache add name="types/express" spec="^4.17.2" args=["types/express","^4.17.2"]
+189 verbose parsed url Url {
+189 verbose parsed url   protocol: null,
+189 verbose parsed url   slashes: null,
+189 verbose parsed url   auth: null,
+189 verbose parsed url   host: null,
+189 verbose parsed url   port: null,
+189 verbose parsed url   hostname: null,
+189 verbose parsed url   hash: null,
+189 verbose parsed url   search: null,
+189 verbose parsed url   query: null,
+189 verbose parsed url   pathname: '%5E4.17.2',
+189 verbose parsed url   path: '%5E4.17.2',
+189 verbose parsed url   href: '%5E4.17.2' }
+190 verbose addNamed [ 'types/express', '^4.17.2' ]
+191 verbose addNamed [ null, '>=4.17.2 <5.0.0' ]
+192 verbose cache add name="types/jest" spec="^24.0.23" args=["types/jest","^24.0.23"]
+193 verbose parsed url Url {
+193 verbose parsed url   protocol: null,
+193 verbose parsed url   slashes: null,
+193 verbose parsed url   auth: null,
+193 verbose parsed url   host: null,
+193 verbose parsed url   port: null,
+193 verbose parsed url   hostname: null,
+193 verbose parsed url   hash: null,
+193 verbose parsed url   search: null,
+193 verbose parsed url   query: null,
+193 verbose parsed url   pathname: '%5E24.0.23',
+193 verbose parsed url   path: '%5E24.0.23',
+193 verbose parsed url   href: '%5E24.0.23' }
+194 verbose addNamed [ 'types/jest', '^24.0.23' ]
+195 verbose addNamed [ null, '>=24.0.23 <25.0.0' ]
+196 verbose cache add name="types/js-yaml" spec="^3.12.1" args=["types/js-yaml","^3.12.1"]
+197 verbose parsed url Url {
+197 verbose parsed url   protocol: null,
+197 verbose parsed url   slashes: null,
+197 verbose parsed url   auth: null,
+197 verbose parsed url   host: null,
+197 verbose parsed url   port: null,
+197 verbose parsed url   hostname: null,
+197 verbose parsed url   hash: null,
+197 verbose parsed url   search: null,
+197 verbose parsed url   query: null,
+197 verbose parsed url   pathname: '%5E3.12.1',
+197 verbose parsed url   path: '%5E3.12.1',
+197 verbose parsed url   href: '%5E3.12.1' }
+198 verbose addNamed [ 'types/js-yaml', '^3.12.1' ]
+199 verbose addNamed [ null, '>=3.12.1 <4.0.0' ]
+200 verbose cache add name="types/lodash" spec="^4.14.148" args=["types/lodash","^4.14.148"]
+201 verbose parsed url Url {
+201 verbose parsed url   protocol: null,
+201 verbose parsed url   slashes: null,
+201 verbose parsed url   auth: null,
+201 verbose parsed url   host: null,
+201 verbose parsed url   port: null,
+201 verbose parsed url   hostname: null,
+201 verbose parsed url   hash: null,
+201 verbose parsed url   search: null,
+201 verbose parsed url   query: null,
+201 verbose parsed url   pathname: '%5E4.14.148',
+201 verbose parsed url   path: '%5E4.14.148',
+201 verbose parsed url   href: '%5E4.14.148' }
+202 verbose addNamed [ 'types/lodash', '^4.14.148' ]
+203 verbose addNamed [ null, '>=4.14.148 <5.0.0' ]
+204 verbose cache add name="types/node" spec="^12.12.8" args=["types/node","^12.12.8"]
+205 verbose parsed url Url {
+205 verbose parsed url   protocol: null,
+205 verbose parsed url   slashes: null,
+205 verbose parsed url   auth: null,
+205 verbose parsed url   host: null,
+205 verbose parsed url   port: null,
+205 verbose parsed url   hostname: null,
+205 verbose parsed url   hash: null,
+205 verbose parsed url   search: null,
+205 verbose parsed url   query: null,
+205 verbose parsed url   pathname: '%5E12.12.8',
+205 verbose parsed url   path: '%5E12.12.8',
+205 verbose parsed url   href: '%5E12.12.8' }
+206 verbose addNamed [ 'types/node', '^12.12.8' ]
+207 verbose addNamed [ null, '>=12.12.8 <13.0.0' ]
+208 verbose cache add name="types/react" spec="^16.9.11" args=["types/react","^16.9.11"]
+209 verbose parsed url Url {
+209 verbose parsed url   protocol: null,
+209 verbose parsed url   slashes: null,
+209 verbose parsed url   auth: null,
+209 verbose parsed url   host: null,
+209 verbose parsed url   port: null,
+209 verbose parsed url   hostname: null,
+209 verbose parsed url   hash: null,
+209 verbose parsed url   search: null,
+209 verbose parsed url   query: null,
+209 verbose parsed url   pathname: '%5E16.9.11',
+209 verbose parsed url   path: '%5E16.9.11',
+209 verbose parsed url   href: '%5E16.9.11' }
+210 verbose addNamed [ 'types/react', '^16.9.11' ]
+211 verbose addNamed [ null, '>=16.9.11 <17.0.0' ]
+212 verbose cache add name="types/react-dom" spec="^16.9.4" args=["types/react-dom","^16.9.4"]
+213 verbose parsed url Url {
+213 verbose parsed url   protocol: null,
+213 verbose parsed url   slashes: null,
+213 verbose parsed url   auth: null,
+213 verbose parsed url   host: null,
+213 verbose parsed url   port: null,
+213 verbose parsed url   hostname: null,
+213 verbose parsed url   hash: null,
+213 verbose parsed url   search: null,
+213 verbose parsed url   query: null,
+213 verbose parsed url   pathname: '%5E16.9.4',
+213 verbose parsed url   path: '%5E16.9.4',
+213 verbose parsed url   href: '%5E16.9.4' }
+214 verbose addNamed [ 'types/react-dom', '^16.9.4' ]
+215 verbose addNamed [ null, '>=16.9.4 <17.0.0' ]
+216 verbose cache add name="types/react-redux" spec="^7.1.5" args=["types/react-redux","^7.1.5"]
+217 verbose parsed url Url {
+217 verbose parsed url   protocol: null,
+217 verbose parsed url   slashes: null,
+217 verbose parsed url   auth: null,
+217 verbose parsed url   host: null,
+217 verbose parsed url   port: null,
+217 verbose parsed url   hostname: null,
+217 verbose parsed url   hash: null,
+217 verbose parsed url   search: null,
+217 verbose parsed url   query: null,
+217 verbose parsed url   pathname: '%5E7.1.5',
+217 verbose parsed url   path: '%5E7.1.5',
+217 verbose parsed url   href: '%5E7.1.5' }
+218 verbose addNamed [ 'types/react-redux', '^7.1.5' ]
+219 verbose addNamed [ null, '>=7.1.5 <8.0.0' ]
+220 verbose cache add name="types/react-transition-group" spec="^4.2.3" args=["types/react-transition-group","^4.2.3"]
+221 verbose parsed url Url {
+221 verbose parsed url   protocol: null,
+221 verbose parsed url   slashes: null,
+221 verbose parsed url   auth: null,
+221 verbose parsed url   host: null,
+221 verbose parsed url   port: null,
+221 verbose parsed url   hostname: null,
+221 verbose parsed url   hash: null,
+221 verbose parsed url   search: null,
+221 verbose parsed url   query: null,
+221 verbose parsed url   pathname: '%5E4.2.3',
+221 verbose parsed url   path: '%5E4.2.3',
+221 verbose parsed url   href: '%5E4.2.3' }
+222 verbose addNamed [ 'types/react-transition-group', '^4.2.3' ]
+223 verbose addNamed [ null, '>=4.2.3 <5.0.0' ]
+224 verbose cache add name="" spec="types/redux-logger@^3.0.7" args=["","types/redux-logger@^3.0.7"]
+225 verbose parsed url Url {
+225 verbose parsed url   protocol: null,
+225 verbose parsed url   slashes: null,
+225 verbose parsed url   auth: null,
+225 verbose parsed url   host: null,
+225 verbose parsed url   port: null,
+225 verbose parsed url   hostname: null,
+225 verbose parsed url   hash: null,
+225 verbose parsed url   search: null,
+225 verbose parsed url   query: null,
+225 verbose parsed url   pathname: 'types/redux-logger@%5E3.0.7',
+225 verbose parsed url   path: 'types/redux-logger@%5E3.0.7',
+225 verbose parsed url   href: 'types/redux-logger@%5E3.0.7' }
+226 verbose cache add name="" spec="types/simple-peer@^9.6.0" args=["","types/simple-peer@^9.6.0"]
+227 verbose parsed url Url {
+227 verbose parsed url   protocol: null,
+227 verbose parsed url   slashes: null,
+227 verbose parsed url   auth: null,
+227 verbose parsed url   host: null,
+227 verbose parsed url   port: null,
+227 verbose parsed url   hostname: null,
+227 verbose parsed url   hash: null,
+227 verbose parsed url   search: null,
+227 verbose parsed url   query: null,
+227 verbose parsed url   pathname: 'types/simple-peer@%5E9.6.0',
+227 verbose parsed url   path: 'types/simple-peer@%5E9.6.0',
+227 verbose parsed url   href: 'types/simple-peer@%5E9.6.0' }
+228 verbose cache add name="" spec="types/socket.io@^2.1.4" args=["","types/socket.io@^2.1.4"]
+229 verbose parsed url Url {
+229 verbose parsed url   protocol: null,
+229 verbose parsed url   slashes: null,
+229 verbose parsed url   auth: null,
+229 verbose parsed url   host: null,
+229 verbose parsed url   port: null,
+229 verbose parsed url   hostname: null,
+229 verbose parsed url   hash: null,
+229 verbose parsed url   search: null,
+229 verbose parsed url   query: null,
+229 verbose parsed url   pathname: 'types/socket.io@%5E2.1.4',
+229 verbose parsed url   path: 'types/socket.io@%5E2.1.4',
+229 verbose parsed url   href: 'types/socket.io@%5E2.1.4' }
+230 verbose cache add name="" spec="types/socket.io-client@^1.4.32" args=["","types/socket.io-client@^1.4.32"]
+231 verbose parsed url Url {
+231 verbose parsed url   protocol: null,
+231 verbose parsed url   slashes: null,
+231 verbose parsed url   auth: null,
+231 verbose parsed url   host: null,
+231 verbose parsed url   port: null,
+231 verbose parsed url   hostname: null,
+231 verbose parsed url   hash: null,
+231 verbose parsed url   search: null,
+231 verbose parsed url   query: null,
+231 verbose parsed url   pathname: 'types/socket.io-client@%5E1.4.32',
+231 verbose parsed url   path: 'types/socket.io-client@%5E1.4.32',
+231 verbose parsed url   href: 'types/socket.io-client@%5E1.4.32' }
+232 verbose cache add name="" spec="types/supertest@^2.0.8" args=["","types/supertest@^2.0.8"]
+233 verbose parsed url Url {
+233 verbose parsed url   protocol: null,
+233 verbose parsed url   slashes: null,
+233 verbose parsed url   auth: null,
+233 verbose parsed url   host: null,
+233 verbose parsed url   port: null,
+233 verbose parsed url   hostname: null,
+233 verbose parsed url   hash: null,
+233 verbose parsed url   search: null,
+233 verbose parsed url   query: null,
+233 verbose parsed url   pathname: 'types/supertest@%5E2.0.8',
+233 verbose parsed url   path: 'types/supertest@%5E2.0.8',
+233 verbose parsed url   href: 'types/supertest@%5E2.0.8' }
+234 verbose cache add name="" spec="types/uuid@^3.4.6" args=["","types/uuid@^3.4.6"]
+235 verbose parsed url Url {
+235 verbose parsed url   protocol: null,
+235 verbose parsed url   slashes: null,
+235 verbose parsed url   auth: null,
+235 verbose parsed url   host: null,
+235 verbose parsed url   port: null,
+235 verbose parsed url   hostname: null,
+235 verbose parsed url   hash: null,
+235 verbose parsed url   search: null,
+235 verbose parsed url   query: null,
+235 verbose parsed url   pathname: 'types/uuid@%5E3.4.6',
+235 verbose parsed url   path: 'types/uuid@%5E3.4.6',
+235 verbose parsed url   href: 'types/uuid@%5E3.4.6' }
+236 verbose cache add name="" spec="typescript-eslint/eslint-plugin@^2.7.0" args=["","typescript-eslint/eslint-plugin@^2.7.0"]
+237 verbose parsed url Url {
+237 verbose parsed url   protocol: null,
+237 verbose parsed url   slashes: null,
+237 verbose parsed url   auth: null,
+237 verbose parsed url   host: null,
+237 verbose parsed url   port: null,
+237 verbose parsed url   hostname: null,
+237 verbose parsed url   hash: null,
+237 verbose parsed url   search: null,
+237 verbose parsed url   query: null,
+237 verbose parsed url   pathname: 'typescript-eslint/eslint-plugin@%5E2.7.0',
+237 verbose parsed url   path: 'typescript-eslint/eslint-plugin@%5E2.7.0',
+237 verbose parsed url   href: 'typescript-eslint/eslint-plugin@%5E2.7.0' }
+238 verbose cache add name="" spec="typescript-eslint/parser@^2.7.0" args=["","typescript-eslint/parser@^2.7.0"]
+239 verbose parsed url Url {
+239 verbose parsed url   protocol: null,
+239 verbose parsed url   slashes: null,
+239 verbose parsed url   auth: null,
+239 verbose parsed url   host: null,
+239 verbose parsed url   port: null,
+239 verbose parsed url   hostname: null,
+239 verbose parsed url   hash: null,
+239 verbose parsed url   search: null,
+239 verbose parsed url   query: null,
+239 verbose parsed url   pathname: 'typescript-eslint/parser@%5E2.7.0',
+239 verbose parsed url   path: 'typescript-eslint/parser@%5E2.7.0',
+239 verbose parsed url   href: 'typescript-eslint/parser@%5E2.7.0' }
+240 verbose already installed skipping classnames@^2.2.6 /media/Data/storage/www/peer-calls
+241 verbose already installed skipping core-js@^3.4.1 /media/Data/storage/www/peer-calls
+242 verbose already installed skipping eslint@^6.6.0 /media/Data/storage/www/peer-calls
+243 verbose already installed skipping eslint-plugin-import@^2.18.2 /media/Data/storage/www/peer-calls
+244 verbose already installed skipping eslint-plugin-react@^7.16.0 /media/Data/storage/www/peer-calls
+245 verbose already installed skipping jest@^24.9.0 /media/Data/storage/www/peer-calls
+246 verbose already installed skipping loose-envify@^1.4.0 /media/Data/storage/www/peer-calls
+247 verbose already installed skipping node-sass@^4.13.0 /media/Data/storage/www/peer-calls
+248 verbose already installed skipping nodemon@^1.19.4 /media/Data/storage/www/peer-calls
+249 verbose already installed skipping react@^16.12.0 /media/Data/storage/www/peer-calls
+250 verbose already installed skipping react-dom@^16.12.0 /media/Data/storage/www/peer-calls
+251 verbose already installed skipping react-redux@^7.1.3 /media/Data/storage/www/peer-calls
+252 verbose already installed skipping react-transition-group@^4.3.0 /media/Data/storage/www/peer-calls
+253 verbose already installed skipping redux@^4.0.4 /media/Data/storage/www/peer-calls
+254 verbose already installed skipping redux-logger@^3.0.6 /media/Data/storage/www/peer-calls
+255 verbose already installed skipping redux-thunk@^2.2.0 /media/Data/storage/www/peer-calls
+256 verbose already installed skipping rimraf@^3.0.0 /media/Data/storage/www/peer-calls
+257 verbose already installed skipping screenfull@^5.0.0 /media/Data/storage/www/peer-calls
+258 verbose already installed skipping simple-peer@^9.6.2 /media/Data/storage/www/peer-calls
+259 verbose already installed skipping socket.io-client@^2.3.0 /media/Data/storage/www/peer-calls
+260 verbose already installed skipping supertest@^4.0.2 /media/Data/storage/www/peer-calls
+261 verbose already installed skipping ts-jest@^24.1.0 /media/Data/storage/www/peer-calls
+262 verbose already installed skipping ts-node@^8.5.2 /media/Data/storage/www/peer-calls
+263 verbose already installed skipping tsify@^4.0.1 /media/Data/storage/www/peer-calls
+264 verbose already installed skipping typescript@^3.7.2 /media/Data/storage/www/peer-calls
+265 verbose already installed skipping watchify@^3.11.1 /media/Data/storage/www/peer-calls
+266 verbose already installed skipping debug@^4.1.1 /media/Data/storage/www/peer-calls
+267 verbose already installed skipping ejs@^2.7.4 /media/Data/storage/www/peer-calls
+268 verbose already installed skipping express@^4.17.1 /media/Data/storage/www/peer-calls
+269 silly lockFile e8a05536-babel-core-7-7-2 babel/core@^7.7.2
+270 verbose lock babel/core@^7.7.2 /home/bthiebaut/.npm/e8a05536-babel-core-7-7-2.lock
+271 silly lockFile 57135f2b-babel-polyfill-7-7-0 babel/polyfill@^7.7.0
+272 verbose lock babel/polyfill@^7.7.0 /home/bthiebaut/.npm/57135f2b-babel-polyfill-7-7-0.lock
+273 silly lockFile f143f1cf-babel-preset-env-7-7-1 babel/preset-env@^7.7.1
+274 verbose lock babel/preset-env@^7.7.1 /home/bthiebaut/.npm/f143f1cf-babel-preset-env-7-7-1.lock
+275 silly lockFile f10bdda6-types-classnames-2-2-9 types/classnames@^2.2.9
+276 verbose lock types/classnames@^2.2.9 /home/bthiebaut/.npm/f10bdda6-types-classnames-2-2-9.lock
+277 silly lockFile 17474e73-types-debug-4-1-5 types/debug@^4.1.5
+278 verbose lock types/debug@^4.1.5 /home/bthiebaut/.npm/17474e73-types-debug-4-1-5.lock
+279 silly lockFile 58770634-types-ejs-2-6-3 types/ejs@^2.6.3
+280 verbose lock types/ejs@^2.6.3 /home/bthiebaut/.npm/58770634-types-ejs-2-6-3.lock
+281 silly lockFile 29ae7aa4-types-express-4-17-2 types/express@^4.17.2
+282 verbose lock types/express@^4.17.2 /home/bthiebaut/.npm/29ae7aa4-types-express-4-17-2.lock
+283 silly lockFile 24bd0098-types-jest-24-0-23 types/jest@^24.0.23
+284 verbose lock types/jest@^24.0.23 /home/bthiebaut/.npm/24bd0098-types-jest-24-0-23.lock
+285 silly lockFile 76565bea-types-js-yaml-3-12-1 types/js-yaml@^3.12.1
+286 verbose lock types/js-yaml@^3.12.1 /home/bthiebaut/.npm/76565bea-types-js-yaml-3-12-1.lock
+287 silly lockFile 9148917f-types-lodash-4-14-148 types/lodash@^4.14.148
+288 verbose lock types/lodash@^4.14.148 /home/bthiebaut/.npm/9148917f-types-lodash-4-14-148.lock
+289 silly lockFile 25e26a7f-types-node-12-12-8 types/node@^12.12.8
+290 verbose lock types/node@^12.12.8 /home/bthiebaut/.npm/25e26a7f-types-node-12-12-8.lock
+291 silly lockFile 079e949a-types-react-16-9-11 types/react@^16.9.11
+292 verbose lock types/react@^16.9.11 /home/bthiebaut/.npm/079e949a-types-react-16-9-11.lock
+293 silly lockFile 81fd8127-types-react-dom-16-9-4 types/react-dom@^16.9.4
+294 verbose lock types/react-dom@^16.9.4 /home/bthiebaut/.npm/81fd8127-types-react-dom-16-9-4.lock
+295 silly lockFile ab80bd2f-types-react-redux-7-1-5 types/react-redux@^7.1.5
+296 verbose lock types/react-redux@^7.1.5 /home/bthiebaut/.npm/ab80bd2f-types-react-redux-7-1-5.lock
+297 silly lockFile 58c01c3d-pes-react-transition-group-4-2-3 types/react-transition-group@^4.2.3
+298 verbose lock types/react-transition-group@^4.2.3 /home/bthiebaut/.npm/58c01c3d-pes-react-transition-group-4-2-3.lock
+299 verbose cache add name="types/redux-logger" spec="^3.0.7" args=["types/redux-logger","^3.0.7"]
+300 verbose parsed url Url {
+300 verbose parsed url   protocol: null,
+300 verbose parsed url   slashes: null,
+300 verbose parsed url   auth: null,
+300 verbose parsed url   host: null,
+300 verbose parsed url   port: null,
+300 verbose parsed url   hostname: null,
+300 verbose parsed url   hash: null,
+300 verbose parsed url   search: null,
+300 verbose parsed url   query: null,
+300 verbose parsed url   pathname: '%5E3.0.7',
+300 verbose parsed url   path: '%5E3.0.7',
+300 verbose parsed url   href: '%5E3.0.7' }
+301 verbose addNamed [ 'types/redux-logger', '^3.0.7' ]
+302 verbose addNamed [ null, '>=3.0.7 <4.0.0' ]
+303 silly lockFile b2757338-types-redux-logger-3-0-7 types/redux-logger@^3.0.7
+304 verbose lock types/redux-logger@^3.0.7 /home/bthiebaut/.npm/b2757338-types-redux-logger-3-0-7.lock
+305 verbose cache add name="types/simple-peer" spec="^9.6.0" args=["types/simple-peer","^9.6.0"]
+306 verbose parsed url Url {
+306 verbose parsed url   protocol: null,
+306 verbose parsed url   slashes: null,
+306 verbose parsed url   auth: null,
+306 verbose parsed url   host: null,
+306 verbose parsed url   port: null,
+306 verbose parsed url   hostname: null,
+306 verbose parsed url   hash: null,
+306 verbose parsed url   search: null,
+306 verbose parsed url   query: null,
+306 verbose parsed url   pathname: '%5E9.6.0',
+306 verbose parsed url   path: '%5E9.6.0',
+306 verbose parsed url   href: '%5E9.6.0' }
+307 verbose addNamed [ 'types/simple-peer', '^9.6.0' ]
+308 verbose addNamed [ null, '>=9.6.0 <10.0.0' ]
+309 silly lockFile 49049c25-types-simple-peer-9-6-0 types/simple-peer@^9.6.0
+310 verbose lock types/simple-peer@^9.6.0 /home/bthiebaut/.npm/49049c25-types-simple-peer-9-6-0.lock
+311 verbose cache add name="types/socket.io" spec="^2.1.4" args=["types/socket.io","^2.1.4"]
+312 verbose parsed url Url {
+312 verbose parsed url   protocol: null,
+312 verbose parsed url   slashes: null,
+312 verbose parsed url   auth: null,
+312 verbose parsed url   host: null,
+312 verbose parsed url   port: null,
+312 verbose parsed url   hostname: null,
+312 verbose parsed url   hash: null,
+312 verbose parsed url   search: null,
+312 verbose parsed url   query: null,
+312 verbose parsed url   pathname: '%5E2.1.4',
+312 verbose parsed url   path: '%5E2.1.4',
+312 verbose parsed url   href: '%5E2.1.4' }
+313 verbose addNamed [ 'types/socket.io', '^2.1.4' ]
+314 verbose addNamed [ null, '>=2.1.4 <3.0.0' ]
+315 silly lockFile 6bef5f03-types-socket-io-2-1-4 types/socket.io@^2.1.4
+316 verbose lock types/socket.io@^2.1.4 /home/bthiebaut/.npm/6bef5f03-types-socket-io-2-1-4.lock
+317 verbose cache add name="types/socket.io-client" spec="^1.4.32" args=["types/socket.io-client","^1.4.32"]
+318 verbose parsed url Url {
+318 verbose parsed url   protocol: null,
+318 verbose parsed url   slashes: null,
+318 verbose parsed url   auth: null,
+318 verbose parsed url   host: null,
+318 verbose parsed url   port: null,
+318 verbose parsed url   hostname: null,
+318 verbose parsed url   hash: null,
+318 verbose parsed url   search: null,
+318 verbose parsed url   query: null,
+318 verbose parsed url   pathname: '%5E1.4.32',
+318 verbose parsed url   path: '%5E1.4.32',
+318 verbose parsed url   href: '%5E1.4.32' }
+319 verbose addNamed [ 'types/socket.io-client', '^1.4.32' ]
+320 verbose addNamed [ null, '>=1.4.32 <2.0.0' ]
+321 silly lockFile 3b9ecc6a-types-socket-io-client-1-4-32 types/socket.io-client@^1.4.32
+322 verbose lock types/socket.io-client@^1.4.32 /home/bthiebaut/.npm/3b9ecc6a-types-socket-io-client-1-4-32.lock
+323 verbose cache add name="types/supertest" spec="^2.0.8" args=["types/supertest","^2.0.8"]
+324 verbose parsed url Url {
+324 verbose parsed url   protocol: null,
+324 verbose parsed url   slashes: null,
+324 verbose parsed url   auth: null,
+324 verbose parsed url   host: null,
+324 verbose parsed url   port: null,
+324 verbose parsed url   hostname: null,
+324 verbose parsed url   hash: null,
+324 verbose parsed url   search: null,
+324 verbose parsed url   query: null,
+324 verbose parsed url   pathname: '%5E2.0.8',
+324 verbose parsed url   path: '%5E2.0.8',
+324 verbose parsed url   href: '%5E2.0.8' }
+325 verbose addNamed [ 'types/supertest', '^2.0.8' ]
+326 verbose addNamed [ null, '>=2.0.8 <3.0.0' ]
+327 silly lockFile 21de9b3f-types-supertest-2-0-8 types/supertest@^2.0.8
+328 verbose lock types/supertest@^2.0.8 /home/bthiebaut/.npm/21de9b3f-types-supertest-2-0-8.lock
+329 verbose cache add name="types/uuid" spec="^3.4.6" args=["types/uuid","^3.4.6"]
+330 verbose parsed url Url {
+330 verbose parsed url   protocol: null,
+330 verbose parsed url   slashes: null,
+330 verbose parsed url   auth: null,
+330 verbose parsed url   host: null,
+330 verbose parsed url   port: null,
+330 verbose parsed url   hostname: null,
+330 verbose parsed url   hash: null,
+330 verbose parsed url   search: null,
+330 verbose parsed url   query: null,
+330 verbose parsed url   pathname: '%5E3.4.6',
+330 verbose parsed url   path: '%5E3.4.6',
+330 verbose parsed url   href: '%5E3.4.6' }
+331 verbose addNamed [ 'types/uuid', '^3.4.6' ]
+332 verbose addNamed [ null, '>=3.4.6 <4.0.0' ]
+333 silly lockFile 00a1d454-types-uuid-3-4-6 types/uuid@^3.4.6
+334 verbose lock types/uuid@^3.4.6 /home/bthiebaut/.npm/00a1d454-types-uuid-3-4-6.lock
+335 verbose cache add name="typescript-eslint/eslint-plugin" spec="^2.7.0" args=["typescript-eslint/eslint-plugin","^2.7.0"]
+336 verbose parsed url Url {
+336 verbose parsed url   protocol: null,
+336 verbose parsed url   slashes: null,
+336 verbose parsed url   auth: null,
+336 verbose parsed url   host: null,
+336 verbose parsed url   port: null,
+336 verbose parsed url   hostname: null,
+336 verbose parsed url   hash: null,
+336 verbose parsed url   search: null,
+336 verbose parsed url   query: null,
+336 verbose parsed url   pathname: '%5E2.7.0',
+336 verbose parsed url   path: '%5E2.7.0',
+336 verbose parsed url   href: '%5E2.7.0' }
+337 verbose addNamed [ 'typescript-eslint/eslint-plugin', '^2.7.0' ]
+338 verbose addNamed [ null, '>=2.7.0 <3.0.0' ]
+339 silly lockFile dc915ad2-cript-eslint-eslint-plugin-2-7-0 typescript-eslint/eslint-plugin@^2.7.0
+340 verbose lock typescript-eslint/eslint-plugin@^2.7.0 /home/bthiebaut/.npm/dc915ad2-cript-eslint-eslint-plugin-2-7-0.lock
+341 verbose cache add name="typescript-eslint/parser" spec="^2.7.0" args=["typescript-eslint/parser","^2.7.0"]
+342 verbose parsed url Url {
+342 verbose parsed url   protocol: null,
+342 verbose parsed url   slashes: null,
+342 verbose parsed url   auth: null,
+342 verbose parsed url   host: null,
+342 verbose parsed url   port: null,
+342 verbose parsed url   hostname: null,
+342 verbose parsed url   hash: null,
+342 verbose parsed url   search: null,
+342 verbose parsed url   query: null,
+342 verbose parsed url   pathname: '%5E2.7.0',
+342 verbose parsed url   path: '%5E2.7.0',
+342 verbose parsed url   href: '%5E2.7.0' }
+343 verbose addNamed [ 'typescript-eslint/parser', '^2.7.0' ]
+344 verbose addNamed [ null, '>=2.7.0 <3.0.0' ]
+345 silly lockFile 446fb5b6-typescript-eslint-parser-2-7-0 typescript-eslint/parser@^2.7.0
+346 verbose lock typescript-eslint/parser@^2.7.0 /home/bthiebaut/.npm/446fb5b6-typescript-eslint-parser-2-7-0.lock
+347 verbose already installed skipping js-yaml@^3.13.1 /media/Data/storage/www/peer-calls
+348 verbose already installed skipping lodash@^4.17.15 /media/Data/storage/www/peer-calls
+349 verbose already installed skipping socket.io@^2.3.0 /media/Data/storage/www/peer-calls
+350 silly addNameRange { name: 'babel/core', range: '>=7.7.2 <8.0.0', hasData: false }
+351 silly addNameRange { name: 'babel/polyfill',
+351 silly addNameRange   range: '>=7.7.0 <8.0.0',
+351 silly addNameRange   hasData: false }
+352 silly addNameRange { name: 'babel/preset-env',
+352 silly addNameRange   range: '>=7.7.1 <8.0.0',
+352 silly addNameRange   hasData: false }
+353 silly addNameRange { name: 'types/classnames',
+353 silly addNameRange   range: '>=2.2.9 <3.0.0',
+353 silly addNameRange   hasData: false }
+354 silly addNameRange { name: 'types/debug', range: '>=4.1.5 <5.0.0', hasData: false }
+355 silly addNameRange { name: 'types/ejs', range: '>=2.6.3 <3.0.0', hasData: false }
+356 silly addNameRange { name: 'types/express',
+356 silly addNameRange   range: '>=4.17.2 <5.0.0',
+356 silly addNameRange   hasData: false }
+357 silly addNameRange { name: 'types/jest',
+357 silly addNameRange   range: '>=24.0.23 <25.0.0',
+357 silly addNameRange   hasData: false }
+358 silly addNameRange { name: 'types/js-yaml',
+358 silly addNameRange   range: '>=3.12.1 <4.0.0',
+358 silly addNameRange   hasData: false }
+359 silly addNameRange { name: 'types/lodash',
+359 silly addNameRange   range: '>=4.14.148 <5.0.0',
+359 silly addNameRange   hasData: false }
+360 silly addNameRange { name: 'types/node',
+360 silly addNameRange   range: '>=12.12.8 <13.0.0',
+360 silly addNameRange   hasData: false }
+361 silly addNameRange { name: 'types/react',
+361 silly addNameRange   range: '>=16.9.11 <17.0.0',
+361 silly addNameRange   hasData: false }
+362 silly addNameRange { name: 'types/react-dom',
+362 silly addNameRange   range: '>=16.9.4 <17.0.0',
+362 silly addNameRange   hasData: false }
+363 silly addNameRange { name: 'types/react-redux',
+363 silly addNameRange   range: '>=7.1.5 <8.0.0',
+363 silly addNameRange   hasData: false }
+364 silly addNameRange { name: 'types/react-transition-group',
+364 silly addNameRange   range: '>=4.2.3 <5.0.0',
+364 silly addNameRange   hasData: false }
+365 silly addNameRange { name: 'types/redux-logger',
+365 silly addNameRange   range: '>=3.0.7 <4.0.0',
+365 silly addNameRange   hasData: false }
+366 silly addNameRange { name: 'types/simple-peer',
+366 silly addNameRange   range: '>=9.6.0 <10.0.0',
+366 silly addNameRange   hasData: false }
+367 silly addNameRange { name: 'types/socket.io',
+367 silly addNameRange   range: '>=2.1.4 <3.0.0',
+367 silly addNameRange   hasData: false }
+368 silly addNameRange { name: 'types/socket.io-client',
+368 silly addNameRange   range: '>=1.4.32 <2.0.0',
+368 silly addNameRange   hasData: false }
+369 silly addNameRange { name: 'types/supertest',
+369 silly addNameRange   range: '>=2.0.8 <3.0.0',
+369 silly addNameRange   hasData: false }
+370 silly addNameRange { name: 'types/uuid', range: '>=3.4.6 <4.0.0', hasData: false }
+371 silly addNameRange { name: 'typescript-eslint/eslint-plugin',
+371 silly addNameRange   range: '>=2.7.0 <3.0.0',
+371 silly addNameRange   hasData: false }
+372 silly addNameRange { name: 'typescript-eslint/parser',
+372 silly addNameRange   range: '>=2.7.0 <3.0.0',
+372 silly addNameRange   hasData: false }
+373 verbose request where is /babel/core
+374 verbose request registry https://registry.npmjs.org/
+375 verbose request id 23a4c7b3af8538bd
+376 verbose url raw /babel/core
+377 verbose url resolving [ 'https://registry.npmjs.org/', './babel/core' ]
+378 verbose url resolved https://registry.npmjs.org/babel/core
+379 verbose request where is https://registry.npmjs.org/babel/core
+380 info trying registry request attempt 1 at 15:28:52
+381 http GET https://registry.npmjs.org/babel/core
+382 verbose request where is /babel/polyfill
+383 verbose request registry https://registry.npmjs.org/
+384 verbose url raw /babel/polyfill
+385 verbose url resolving [ 'https://registry.npmjs.org/', './babel/polyfill' ]
+386 verbose url resolved https://registry.npmjs.org/babel/polyfill
+387 verbose request where is https://registry.npmjs.org/babel/polyfill
+388 info trying registry request attempt 1 at 15:28:52
+389 http GET https://registry.npmjs.org/babel/polyfill
+390 verbose request where is /babel/preset-env
+391 verbose request registry https://registry.npmjs.org/
+392 verbose url raw /babel/preset-env
+393 verbose url resolving [ 'https://registry.npmjs.org/', './babel/preset-env' ]
+394 verbose url resolved https://registry.npmjs.org/babel/preset-env
+395 verbose request where is https://registry.npmjs.org/babel/preset-env
+396 info trying registry request attempt 1 at 15:28:52
+397 http GET https://registry.npmjs.org/babel/preset-env
+398 verbose request where is /types/classnames
+399 verbose request registry https://registry.npmjs.org/
+400 verbose url raw /types/classnames
+401 verbose url resolving [ 'https://registry.npmjs.org/', './types/classnames' ]
+402 verbose url resolved https://registry.npmjs.org/types/classnames
+403 verbose request where is https://registry.npmjs.org/types/classnames
+404 info trying registry request attempt 1 at 15:28:52
+405 http GET https://registry.npmjs.org/types/classnames
+406 verbose request where is /types/debug
+407 verbose request registry https://registry.npmjs.org/
+408 verbose url raw /types/debug
+409 verbose url resolving [ 'https://registry.npmjs.org/', './types/debug' ]
+410 verbose url resolved https://registry.npmjs.org/types/debug
+411 verbose request where is https://registry.npmjs.org/types/debug
+412 info trying registry request attempt 1 at 15:28:52
+413 http GET https://registry.npmjs.org/types/debug
+414 verbose request where is /types/ejs
+415 verbose request registry https://registry.npmjs.org/
+416 verbose url raw /types/ejs
+417 verbose url resolving [ 'https://registry.npmjs.org/', './types/ejs' ]
+418 verbose url resolved https://registry.npmjs.org/types/ejs
+419 verbose request where is https://registry.npmjs.org/types/ejs
+420 info trying registry request attempt 1 at 15:28:52
+421 http GET https://registry.npmjs.org/types/ejs
+422 verbose request where is /types/express
+423 verbose request registry https://registry.npmjs.org/
+424 verbose url raw /types/express
+425 verbose url resolving [ 'https://registry.npmjs.org/', './types/express' ]
+426 verbose url resolved https://registry.npmjs.org/types/express
+427 verbose request where is https://registry.npmjs.org/types/express
+428 info trying registry request attempt 1 at 15:28:52
+429 http GET https://registry.npmjs.org/types/express
+430 verbose request where is /types/jest
+431 verbose request registry https://registry.npmjs.org/
+432 verbose url raw /types/jest
+433 verbose url resolving [ 'https://registry.npmjs.org/', './types/jest' ]
+434 verbose url resolved https://registry.npmjs.org/types/jest
+435 verbose request where is https://registry.npmjs.org/types/jest
+436 info trying registry request attempt 1 at 15:28:52
+437 http GET https://registry.npmjs.org/types/jest
+438 verbose request where is /types/js-yaml
+439 verbose request registry https://registry.npmjs.org/
+440 verbose url raw /types/js-yaml
+441 verbose url resolving [ 'https://registry.npmjs.org/', './types/js-yaml' ]
+442 verbose url resolved https://registry.npmjs.org/types/js-yaml
+443 verbose request where is https://registry.npmjs.org/types/js-yaml
+444 info trying registry request attempt 1 at 15:28:52
+445 http GET https://registry.npmjs.org/types/js-yaml
+446 verbose request where is /types/lodash
+447 verbose request registry https://registry.npmjs.org/
+448 verbose url raw /types/lodash
+449 verbose url resolving [ 'https://registry.npmjs.org/', './types/lodash' ]
+450 verbose url resolved https://registry.npmjs.org/types/lodash
+451 verbose request where is https://registry.npmjs.org/types/lodash
+452 info trying registry request attempt 1 at 15:28:52
+453 http GET https://registry.npmjs.org/types/lodash
+454 verbose request where is /types/node
+455 verbose request registry https://registry.npmjs.org/
+456 verbose url raw /types/node
+457 verbose url resolving [ 'https://registry.npmjs.org/', './types/node' ]
+458 verbose url resolved https://registry.npmjs.org/types/node
+459 verbose request where is https://registry.npmjs.org/types/node
+460 info trying registry request attempt 1 at 15:28:52
+461 http GET https://registry.npmjs.org/types/node
+462 verbose request where is /types/react
+463 verbose request registry https://registry.npmjs.org/
+464 verbose url raw /types/react
+465 verbose url resolving [ 'https://registry.npmjs.org/', './types/react' ]
+466 verbose url resolved https://registry.npmjs.org/types/react
+467 verbose request where is https://registry.npmjs.org/types/react
+468 info trying registry request attempt 1 at 15:28:52
+469 http GET https://registry.npmjs.org/types/react
+470 verbose request where is /types/react-dom
+471 verbose request registry https://registry.npmjs.org/
+472 verbose url raw /types/react-dom
+473 verbose url resolving [ 'https://registry.npmjs.org/', './types/react-dom' ]
+474 verbose url resolved https://registry.npmjs.org/types/react-dom
+475 verbose request where is https://registry.npmjs.org/types/react-dom
+476 info trying registry request attempt 1 at 15:28:52
+477 http GET https://registry.npmjs.org/types/react-dom
+478 verbose request where is /types/react-redux
+479 verbose request registry https://registry.npmjs.org/
+480 verbose url raw /types/react-redux
+481 verbose url resolving [ 'https://registry.npmjs.org/', './types/react-redux' ]
+482 verbose url resolved https://registry.npmjs.org/types/react-redux
+483 verbose request where is https://registry.npmjs.org/types/react-redux
+484 info trying registry request attempt 1 at 15:28:52
+485 http GET https://registry.npmjs.org/types/react-redux
+486 verbose request where is /types/react-transition-group
+487 verbose request registry https://registry.npmjs.org/
+488 verbose url raw /types/react-transition-group
+489 verbose url resolving [ 'https://registry.npmjs.org/',
+489 verbose url resolving   './types/react-transition-group' ]
+490 verbose url resolved https://registry.npmjs.org/types/react-transition-group
+491 verbose request where is https://registry.npmjs.org/types/react-transition-group
+492 info trying registry request attempt 1 at 15:28:52
+493 http GET https://registry.npmjs.org/types/react-transition-group
+494 verbose request where is /types/redux-logger
+495 verbose request registry https://registry.npmjs.org/
+496 verbose url raw /types/redux-logger
+497 verbose url resolving [ 'https://registry.npmjs.org/', './types/redux-logger' ]
+498 verbose url resolved https://registry.npmjs.org/types/redux-logger
+499 verbose request where is https://registry.npmjs.org/types/redux-logger
+500 info trying registry request attempt 1 at 15:28:52
+501 http GET https://registry.npmjs.org/types/redux-logger
+502 verbose request where is /types/simple-peer
+503 verbose request registry https://registry.npmjs.org/
+504 verbose url raw /types/simple-peer
+505 verbose url resolving [ 'https://registry.npmjs.org/', './types/simple-peer' ]
+506 verbose url resolved https://registry.npmjs.org/types/simple-peer
+507 verbose request where is https://registry.npmjs.org/types/simple-peer
+508 info trying registry request attempt 1 at 15:28:52
+509 http GET https://registry.npmjs.org/types/simple-peer
+510 verbose request where is /types/socket.io
+511 verbose request registry https://registry.npmjs.org/
+512 verbose url raw /types/socket.io
+513 verbose url resolving [ 'https://registry.npmjs.org/', './types/socket.io' ]
+514 verbose url resolved https://registry.npmjs.org/types/socket.io
+515 verbose request where is https://registry.npmjs.org/types/socket.io
+516 info trying registry request attempt 1 at 15:28:52
+517 http GET https://registry.npmjs.org/types/socket.io
+518 verbose request where is /types/socket.io-client
+519 verbose request registry https://registry.npmjs.org/
+520 verbose url raw /types/socket.io-client
+521 verbose url resolving [ 'https://registry.npmjs.org/', './types/socket.io-client' ]
+522 verbose url resolved https://registry.npmjs.org/types/socket.io-client
+523 verbose request where is https://registry.npmjs.org/types/socket.io-client
+524 info trying registry request attempt 1 at 15:28:52
+525 http GET https://registry.npmjs.org/types/socket.io-client
+526 verbose request where is /types/supertest
+527 verbose request registry https://registry.npmjs.org/
+528 verbose url raw /types/supertest
+529 verbose url resolving [ 'https://registry.npmjs.org/', './types/supertest' ]
+530 verbose url resolved https://registry.npmjs.org/types/supertest
+531 verbose request where is https://registry.npmjs.org/types/supertest
+532 info trying registry request attempt 1 at 15:28:52
+533 http GET https://registry.npmjs.org/types/supertest
+534 verbose request where is /types/uuid
+535 verbose request registry https://registry.npmjs.org/
+536 verbose url raw /types/uuid
+537 verbose url resolving [ 'https://registry.npmjs.org/', './types/uuid' ]
+538 verbose url resolved https://registry.npmjs.org/types/uuid
+539 verbose request where is https://registry.npmjs.org/types/uuid
+540 info trying registry request attempt 1 at 15:28:52
+541 http GET https://registry.npmjs.org/types/uuid
+542 verbose request where is /typescript-eslint/eslint-plugin
+543 verbose request registry https://registry.npmjs.org/
+544 verbose url raw /typescript-eslint/eslint-plugin
+545 verbose url resolving [ 'https://registry.npmjs.org/',
+545 verbose url resolving   './typescript-eslint/eslint-plugin' ]
+546 verbose url resolved https://registry.npmjs.org/typescript-eslint/eslint-plugin
+547 verbose request where is https://registry.npmjs.org/typescript-eslint/eslint-plugin
+548 info trying registry request attempt 1 at 15:28:52
+549 http GET https://registry.npmjs.org/typescript-eslint/eslint-plugin
+550 verbose request where is /typescript-eslint/parser
+551 verbose request registry https://registry.npmjs.org/
+552 verbose url raw /typescript-eslint/parser
+553 verbose url resolving [ 'https://registry.npmjs.org/', './typescript-eslint/parser' ]
+554 verbose url resolved https://registry.npmjs.org/typescript-eslint/parser
+555 verbose request where is https://registry.npmjs.org/typescript-eslint/parser
+556 info trying registry request attempt 1 at 15:28:52
+557 http GET https://registry.npmjs.org/typescript-eslint/parser
+558 http 405 https://registry.npmjs.org/babel/polyfill
+559 silly registry.get cb [ 405,
+559 silly registry.get   { date: 'Sat, 01 Feb 2020 14:28:53 GMT',
+559 silly registry.get     'content-type': 'application/json',
+559 silly registry.get     'content-length': '63',
+559 silly registry.get     connection: 'close',
+559 silly registry.get     'set-cookie':
+559 silly registry.get      [ '__cfduid=db125a55fb6015f61a1b8ef2c67162c601580567333; expires=Mon, 02-Mar-20 14:28:53 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+559 silly registry.get     'cf-ray': '55e49d488973bd72-CDG',
+559 silly registry.get     allow: 'PUT',
+559 silly registry.get     'cf-cache-status': 'DYNAMIC',
+559 silly registry.get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+559 silly registry.get     vary: 'Accept-Encoding',
+559 silly registry.get     server: 'cloudflare' } ]
+560 silly lockFile 57135f2b-babel-polyfill-7-7-0 babel/polyfill@^7.7.0
+561 silly lockFile 57135f2b-babel-polyfill-7-7-0 babel/polyfill@^7.7.0
+562 error Error: Method Not Allowed
+562 error     at errorResponse (/usr/share/npm/lib/cache/add-named.js:260:10)
+562 error     at /usr/share/npm/lib/cache/add-named.js:203:12
+562 error     at saved (/usr/share/npm/node_modules/npm-registry-client/lib/get.js:167:7)
+562 error     at FSReqWrap.oncomplete (fs.js:135:15)
+563 error If you need help, you may report this *entire* log,
+563 error including the npm and node versions, at:
+563 error     <http://github.com/npm/npm/issues>
+564 error System Linux 4.14.98-v7+
+565 error command "/usr/bin/node" "/usr/bin/npm" "install"
+566 error cwd /media/Data/storage/www/peer-calls
+567 error node -v v8.11.1
+568 error npm -v 1.4.21
+569 error code E405
+570 verbose exit [ 1, true ]

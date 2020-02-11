@@ -98,7 +98,7 @@ export const MediaForm = React.memo(function MediaForm(props: MediaProps) {
       </select>
 
       <button type='submit'>
-        Join Call
+        Rejoindre
       </button>
     </form>
   )
